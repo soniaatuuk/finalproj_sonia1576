@@ -1,35 +1,45 @@
-# finalproj_sonia1576
-Projek akhir Python Pro. membuat website menggunakan Ai untuk mendeteksi jenis sampah dari gambar pengguna,lalu memberikan saran tentang cara mendaur ulang atau membuang sampah tersebut dengan benar
+# Proyek Akhir Python Pro: Website Pengelolaan Sampah  
 
-### Bahan Projek WEB + AI
-- Dasar-dasar desain web
-- HTML + CSS
-- Flask sebagai framework backend
-- Jinja untuk templat dinamis
-- Perutean web dengan Flask
-- GitHub untuk kontrol versi
-- Integrasi AI (IMAGEAI) untuk deteksi sampah
+Proyek ini adalah sebuah website yang bertujuan untuk meningkatkan kesadaran tentang krisis sampah global dengan menyediakan informasi, infografik, dan panduan pengelolaan sampah yang interaktif dan informatif.  
 
-### Fitur Utama
-- **Deteksi Sampah**: Menggunakan AI untuk mengklasifikasikan gambar sampah menjadi beberapa kategori (misalnya: plastik, logam, kertas).
-- **Panduan Daur Ulang**: Menyediakan informasi tentang cara mendaur ulang atau membuang sampah dengan benar berdasarkan jenisnya.
-- **Edukasi Lingkungan**: Menyediakan informasi tentang dampak sampah terhadap lingkungan dan cara mengurangi jejak ekologis.
+Website ini memberikan berbagai fitur seperti infografik dampak sampah global, panduan praktis untuk mengelola sampah, serta kalkulator yang membantu pengguna menghitung jejak karbon dari sampah yang dihasilkan.  
 
-### Teknologi yang Digunakan
-- **IMAGEAI**: Digunakan untuk klasifikasi gambar sampah
-- **Flask**: Framework web untuk backend
-- **HTML & CSS**: Untuk desain antarmuka
-- **Jinja**: Template engine untuk halaman dinamis
+## Fitur Utama  
+- **Infografik Krisis Sampah Global**:  
+  Menampilkan data dan visualisasi dampak sampah terhadap lingkungan untuk meningkatkan pemahaman pengguna tentang skala dan konsekuensi dari krisis sampah global.  
 
-### Langkah Instalasi
-1. Clone repository ini.
-2. Install dependensi menggunakan `pip install -r requirements.txt`.
-3. Unduh model pre-trained untuk IMAGEAI jika diperlukan dan pastikan TensorFlow terinstal.
-4. Jalankan server Flask dengan perintah `python app.py`.
-5. Buka browser dan akses `http://localhost:5000` untuk melihat aplikasi.
+- **Panduan Pengelolaan Sampah**:  
+  Memberikan panduan praktis tentang cara mendaur ulang atau membuang sampah dengan benar, serta tips untuk mengurangi sampah sehari-hari.  
 
-### Cara Penggunaan
-- Upload gambar sampah di halaman utama.
-- AI akan memproses gambar dan menampilkan hasil klasifikasi.
-- Lihat informasi tentang cara pengelolaan sampah berdasarkan jenisnya.
-- Gunakan kalkulator untuk mengetahui dampak lingkungan berdasarkan jenis dan jumlah sampah yang diunggah.
+- **Kalkulator Dampak Lingkungan**:  
+  Menghitung potensi jejak karbon berdasarkan jenis dan jumlah sampah yang dihasilkan pengguna, dengan saran untuk mengurangi dampak tersebut.  
+
+## Teknologi yang Digunakan  
+- **HTML + CSS**: Untuk desain antarmuka pengguna yang responsif.  
+- **Flask**: Sebagai framework backend yang ringan untuk menangani logika aplikasi.  
+- **Jinja**: Digunakan untuk membuat halaman dinamis berbasis data.  
+- **Infografik Interaktif**: Dibangun menggunakan pustaka grafik seperti Chart.js atau Plotly untuk visualisasi data.  
+
+## Langkah Instalasi  
+1. **Clone Repository**:  
+   Unduh proyek dengan perintah:  
+   ```bash
+   git clone https://github.com/username/repo-name.git
+   cd repo-name
+
+2. **Instalasi Dependensi**
+    Pastikan Anda memiliki Python 3.11 terinstal, kemudian jalankan:
+    pip install -r requirements.txt
+3. **Menjalankan Server:**
+    Setelah instalasi selesai, jalankan aplikasi menggunakan:
+    python app.py
+4.  **Akses Aplikasi:**
+    Buka browser Anda dan akses aplikasi di http://localhost:5000.
+
+Cara Penggunaan
+Jelajahi Infografik:
+Pada halaman utama, lihat data dan visualisasi yang menjelaskan krisis sampah global serta dampaknya terhadap lingkungan.
+Gunakan Panduan:
+Pelajari cara mendaur ulang atau membuang sampah sesuai jenisnya, lengkap dengan tips mengurangi limbah.
+Hitung Jejak Karbon Anda:
+Gunakan kalkulator untuk menghitung dampak lingkungan berdasarkan jenis dan jumlah sampah, lalu dapatkan rekomendasi untuk mengurangi jejak karbon Anda.
